@@ -3,6 +3,8 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import GeolocationContainer from "./components/Geolocation/GeolocationContainer";
+import Focus from "./components/Focus/Focus";
+import Transition from "./components/Transition/Transition";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -10,6 +12,8 @@ function App() {
   return (
     <>
       <GeolocationContainer />
+      <Focus />
+      <Transition />
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
